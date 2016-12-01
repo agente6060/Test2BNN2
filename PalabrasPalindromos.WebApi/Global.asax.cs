@@ -9,9 +9,12 @@ namespace PalabrasPalindromos.WebApi
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
+        Dictionary<string, bool> palindromoDic { get; set; }
+
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            palindromoDic = new Dictionary<string, bool>();
         }
     }
 }
