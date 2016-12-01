@@ -6,3 +6,5 @@ http://localhost:{puerto}/api/palindromos/Consultar
 http://localhost:{puerto}/api/palindromos/Agregar?palabra=agua
 http://localhost:{puerto}/api/palindromos/Eliminar?palabra=agua
 http://localhost:{puerto}/api/palindromos/Palindromo?palabra=agua
+
+En este proyecto se reutilizaron las librerias creadas en el problema 1
